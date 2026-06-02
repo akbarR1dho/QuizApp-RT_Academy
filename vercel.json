@@ -26,7 +26,7 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://your-app.vercel.app",
         "CACHE_STORE": "array",
         "CACHE_DRIVER": "array",
@@ -34,7 +34,7 @@
         "QUEUE_CONNECTION": "sync",
         "DB_CONNECTION": "sqlite",
         "LOG_CHANNEL": "stderr",
-        "VIEW_COMPILED_PATH": "/tmp",
+        "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
